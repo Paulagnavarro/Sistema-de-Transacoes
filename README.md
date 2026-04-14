@@ -46,9 +46,11 @@ Crie dois bancos no PostgreSQL:
 ### 2. Backend (Laravel)
 
 git clone https://github.com/Paulagnavarro/Sistema-de-Transacoes.git
+
 cd Sistema-de-Transacoes
 
 composer install
+
 cp .env.example .env
 
 Configure o arquivo .env com suas credenciais do PostgreSQL

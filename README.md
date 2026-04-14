@@ -82,14 +82,20 @@ Frontend geralmente roda em: http://localhost:5173
 ### 4. Como Testar
 
 Acesse o frontend
+
 Faça login com o administrador
+
 Cadastre clientes, realize créditos e débitos
+
 Verifique a validação de saldo negativo e o histórico no perfil do cliente
+
 
 Rodar os testes do backend:
 php artisan test
 
 ### Segurança
 Cadastro de usuários protegido por autenticação
+
 Apenas administradores logados podem criar novas contas
+
 Autenticação via Sanctum com token

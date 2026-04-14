@@ -70,9 +70,11 @@ Backend roda em: http://127.0.0.1:8000
 ### 3. Frontend (Vue.js)
 
 git clone https://github.com/Paulagnavarro/sistema-transacoes-frontend.git
+
 cd sistema-transacoes-frontend
 
 npm install
+
 npm run serve
 
 Frontend geralmente roda em: http://localhost:5173
